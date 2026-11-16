@@ -11,8 +11,8 @@ I love learning new things, and I learn best by building them, breaking them and
 | **2x NVIDIA DGX Spark** (GB10, 128 GB each, linked over ConnectX-7) | GLM-5.3-Flash, tensor-parallel across both, the main model behind my agents |
 | **Windows PC with an RTX 5090** | vision, OCR at scale, image generation with ComfyUI, image-to-3D for the printer |
 | **Mac mini M4 Pro** | the conductor: [Hermes Agent](https://github.com/NousResearch/hermes-agent) with several profiles, [Hindsight](https://github.com/vectorize-io/hindsight) as shared long-term memory, speech in and out, a local fallback model |
-| **Arduino VENTUNO Q** | edge AI on a small board with its own NPU, my playground for running models close to sensors |
-| **Raspberry Pi** | [Home Assistant](https://www.home-assistant.io) and camera detection |
+| **Arduino VENTUNO Q** | brand new and my favourite toy right now: edge AI on a small board with its own NPU, running models close to sensors |
+| **3x Raspberry Pi**, one of them a Pi 5 with 16 GB and the AI HAT+ 2 (Hailo) | [Home Assistant](https://www.home-assistant.io), camera detection, and test labs I can break without worrying |
 | **A NAS** | sync, backups, [n8n](https://n8n.io) workflows |
 
 ## The workshop
@@ -20,8 +20,13 @@ I love learning new things, and I learn best by building them, breaking them and
 Software is only half of it. I'm teaching myself how to build hardware: enclosures, mounts and small devices, from the first sketch to the finished part.
 
 - **[Bambu Lab](https://bambulab.com) H2C** for 3D printing, fed straight from the lab (image → 3D model → print)
-- **[Arduino](https://www.arduino.cc)** boards and sensors for the electronics
+- **A 3D scanner** to capture real objects and turn them into parts that fit
+- **[Arduino](https://www.arduino.cc)** boards and sensors for the electronics, alongside the VENTUNO Q
 - CAD (Fusion) for the parts that need to fit on the first try (they rarely do)
+
+## Behind the camera
+
+Away from the keyboard I take photos with a full studio setup: a **Fujifilm GFX100 II** medium-format body with a set of GF lenses. Same habit as in the lab: get the details right and look closely at the result.
 
 ## The AI I work with
 
