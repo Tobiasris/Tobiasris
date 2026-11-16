@@ -20,13 +20,13 @@ I love learning new things, and I learn best by building them, breaking them and
 Software is only half of it. I'm teaching myself how to build hardware: enclosures, mounts and small devices, from the first sketch to the finished part.
 
 - **[Bambu Lab](https://bambulab.com) H2C** for 3D printing, fed straight from the lab (image → 3D model → print)
-- **A 3D scanner** to capture real objects and turn them into parts that fit
+- **Shining 3D EinStar Vega** 3D scanner to capture real objects and turn them into parts that fit
 - **[Arduino](https://www.arduino.cc)** boards and sensors for the electronics, alongside the VENTUNO Q
 - CAD (Fusion) for the parts that need to fit on the first try (they rarely do)
 
 ## Behind the camera
 
-Away from the keyboard I take photos with a full studio setup: a **Fujifilm GFX100 II** medium-format body with a set of GF lenses. Same habit as in the lab: get the details right and look closely at the result.
+Away from the keyboard I take photos with a full studio setup: a **Fujifilm GFX100 II** medium-format body with several GF lenses. Same habit as in the lab: get the details right and look closely at the result.
 
 ## The AI I work with
 
