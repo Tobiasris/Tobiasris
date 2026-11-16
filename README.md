@@ -2,7 +2,9 @@
 
 Pentester and malware analyst from Basel, Switzerland. By day I look for the holes in other people's systems. In the evenings I build my own: a home lab that runs AI locally, agents that do real work, and more and more hardware that I design, print and wire up myself.
 
-I love learning new things, and I learn best by building them, breaking them and measuring what happened.
+## Why I do this
+
+I love learning new things, and AI is the field where there is something new to learn every week. I learn best by building: set it up, break it, measure what happened, write it down. What I enjoy most is connecting the pieces, so code ends up in hardware and the workshop feeds the lab. I simply like things that are well made, whether it's a clean pipeline or a good photo (on the side I shoot with a Fujifilm GFX).
 
 ## What's running in my lab
 
@@ -23,10 +25,6 @@ Software is only half of it. I'm teaching myself how to build hardware: enclosur
 - **Shining 3D EinStar Vega** 3D scanner to capture real objects and turn them into parts that fit
 - **[Arduino](https://www.arduino.cc)** boards and sensors for the electronics, alongside the VENTUNO Q
 - CAD (Fusion) for the parts that need to fit on the first try (they rarely do)
-
-## Behind the camera
-
-Away from the keyboard I take photos with a full studio setup: a **Fujifilm GFX100 II** medium-format body with several GF lenses. Same habit as in the lab: get the details right and look closely at the result.
 
 ## The AI I work with
 
