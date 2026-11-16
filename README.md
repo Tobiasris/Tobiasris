@@ -1,18 +1,39 @@
 # Hi, I'm Tobias 👋
 
-Pentester and malware analyst from Basel, Switzerland. By day I look for the holes in other people's systems. In the evenings I build my own: a home lab that runs AI locally, with agents that do real work and an eye on how to keep them safe.
+Pentester and malware analyst from Basel, Switzerland. By day I look for the holes in other people's systems. In the evenings I build my own: a home lab that runs AI locally, agents that do real work, and more and more hardware that I design, print and wire up myself.
+
+I love learning new things, and I learn best by building them, breaking them and measuring what happened.
 
 ## What's running in my lab
 
 | Machine | What it does |
 | --- | --- |
 | **2x NVIDIA DGX Spark** (GB10, 128 GB each, linked over ConnectX-7) | GLM-5.3-Flash, tensor-parallel across both, the main model behind my agents |
-| **Windows PC with an RTX 5090** | vision (Qwen3.8-27B), OCR at scale (GLM-OCR, PaddleOCR-VL), image generation with ComfyUI, image-to-3D for my 3D printer |
-| **Mac mini M4 Pro** | the conductor: Hermes Agent with several profiles, Hindsight as shared long-term memory, speech in and out (Whisper, Qwen3-TTS on MLX), a local Qwen fallback |
-| **Synology NAS** | sync, backups, n8n workflows |
-| **Raspberry Pi 5 + Hailo** | Home Assistant and camera detection |
+| **Windows PC with an RTX 5090** | vision, OCR at scale, image generation with ComfyUI, image-to-3D for the printer |
+| **Mac mini M4 Pro** | the conductor: [Hermes Agent](https://github.com/NousResearch/hermes-agent) with several profiles, [Hindsight](https://github.com/vectorize-io/hindsight) as shared long-term memory, speech in and out, a local fallback model |
+| **Arduino VENTUNO Q** | edge AI on a small board with its own NPU, my playground for running models close to sensors |
+| **Raspberry Pi** | [Home Assistant](https://www.home-assistant.io) and camera detection |
+| **A NAS** | sync, backups, [n8n](https://n8n.io) workflows |
 
-Cloud models (Claude, Codex, Mistral) do the planning and the reviews. Bulk work and anything private stay on my own hardware.
+## The workshop
+
+Software is only half of it. I'm teaching myself how to build hardware: enclosures, mounts and small devices, from the first sketch to the finished part.
+
+- **[Bambu Lab](https://bambulab.com) H2C** for 3D printing, fed straight from the lab (image → 3D model → print)
+- **[Arduino](https://www.arduino.cc)** boards and sensors for the electronics
+- CAD (Fusion) for the parts that need to fit on the first try (they rarely do)
+
+## The AI I work with
+
+Cloud models do the planning and the reviews. Bulk work and anything private stay on my own hardware.
+
+| | Used for |
+| --- | --- |
+| [Claude](https://www.anthropic.com/claude) (Anthropic) | planning, hard decisions, code review |
+| [Codex](https://openai.com/codex) (OpenAI) | coding tasks and a second opinion |
+| [Mistral](https://mistral.ai) | coding with Vibe, reviews |
+| [GLM](https://huggingface.co/zai-org) (Z.ai) | local main model on the Sparks |
+| [vLLM](https://github.com/vllm-project/vllm), [llama.cpp](https://github.com/ggml-org/llama.cpp), [Ollama](https://ollama.com) | serving models locally |
 
 ## How I like to work
 
@@ -23,7 +44,7 @@ Cloud models (Claude, Codex, Mistral) do the planning and the reviews. Bulk work
 ## Where I'm heading
 
 - An agent system that handles most of my routine work, so I only step in where a decision really matters.
-- A write-up about once a month: benchmarks on the Sparks and the RTX 5090, agent setups, and security for AI tooling.
+- A write-up about once a month: benchmarks on the Sparks and the RTX 5090, agent setups, hardware builds and security for AI tooling.
 - Learning by building, and making it easier for others to do the same.
 
 ## Latest
